@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 968px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.search {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.search input#search {
+    flex-grow: 2;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.main-table td,
+.main-table th {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.main-table th {
+    font-weight: bold;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
