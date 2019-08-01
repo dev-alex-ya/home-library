@@ -6,42 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <form action="index.php" method="get">
-        <input type="search" name="search" id="search">
-    </form>
-    <table>
-        <thead>
-            <tr>
-                <td>№</td>
-                <td>Автор</td>
-                <td>Название</td>
-                <td>ISBN</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Артем Каменистый</td>
-                <td>Девятый</td>
-                <td>978-5-699-91235-1</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Пол Бэрри</td>
-                <td>Изучаем програмирование на Python</td>
-                <td>978-5-699-98595-1</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Джон Р.Толкиен</td>
-                <td>Хоббит. Туда и обратно.</td>
-                <td>978-5-699-98595-1</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container border-red">
+        <form class="search d-flex" action="index.php" method="get">
+            <input type="search" name="search" id="search">
+            <input type="submit" value="Поиск">
+        </form>
+        <table class="main-table">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Автор</th>
+                    <th>Название</th>
+                    <th>ISBN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-align-center">1</td>
+                    <td>Артем Каменистый</td>
+                    <td>Девятый</td>
+                    <td>978-5-699-91235-1</td>
+                </tr>
+                <tr>
+                    <td class="text-align-center">2</td>
+                    <td>Пол Бэрри</td>
+                    <td>Изучаем програмирование на Python</td>
+                    <td>978-5-699-98595-1</td>
+                </tr>
+                <tr>
+                    <td class="text-align-center">3</td>
+                    <td>Джон Р.Толкиен</td>
+                    <td>Хоббит. Туда и обратно.</td>
+                    <td>978-5-699-98595-1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>
